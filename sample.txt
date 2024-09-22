@@ -1,0 +1,27 @@
+Q: What is the total revenue for Tesla?
+A: The total revenue for Tesla in 2023 was $96773 million.
+
+Q: What is the total revenue for Apple?
+A: The total revenue for Apple in 2023 was $383934 million.
+
+Q: What is the total revenue for Microsoft?
+A: The total revenue for Microsoft in 2023 was $211915 million.
+
+Q: How has net income changed over the last year for Tesla?
+A: The net income for Tesla changed by 18.96% from 2022 to 2023.
+
+Q: How has net income changed over the last year for Apple?
+A: The net income for Apple changed by -2.81% from 2022 to 2023.
+
+Q: How has net income changed over the last year for Microsoft?
+A: The net income for Microsoft changed by -2.96% from 2022 to 2023.
+
+Q: What is the total assets for Tesla?
+A: The total assets for Tesla in 2023 were $106618 million.
+
+Q: What is the total assets for Apple?
+A: The total assets for Apple in 2023 were $352583 million.
+
+Q: What is the total assets for Microsoft?
+A: The total assets for Microsoft in 2023 were $411179 million.
+

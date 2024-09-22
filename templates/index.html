@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Chatbot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1F4E35; /* Dark Green */
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            max-width: 600px;
+            background-color: #A8D5BA; /* Light Green */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1 {
+            text-align: center;
+            color: #1F4E35; /* Dark Green for text */
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        input[type="text"] {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            background-color: #3A7D44; /* Vibrant Green for button */
+            color: white;
+            border: none;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #2E6A3A; /* Darker Green on hover */
+        }
+        .response {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Financial Chatbot</h1>
+        <form action="/get_response" method="POST">
+            <input type="text" name="query" placeholder="Ask a financial question" required>
+            <input type="submit" value="Get Response">
+        </form>
+        {% if response %}
+        <div class="response">
+            <strong>Query:</strong> {{ query }} <br>
+            <strong>Response:</strong> {{ response }}
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
